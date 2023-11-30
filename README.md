@@ -17,6 +17,14 @@ This protocol has been developed solely for educational purposes.
 3. **Performance Concerns**: The protocol prioritizes simplicity over performance optimizations. As such, it may not be suitable for applications requiring high efficiency or low-latency communication.
 4. **Modification and Extension**: Feel free to modify and extend the protocol for educational purposes. However, exercise caution if considering its application in real-world scenarios.
 
+## Commands
+**Compare Words (COMPARE_WORDS):**
+   - Command: `COMPARE_WORDS word1 word2`
+   - Parameters:
+      - `word1`: The first word.
+      - `word2`: The second word.
+   - Description: Сompares these words and returns "true" if they are identical in terms of both the number of letters and their order, and "false" otherwise.
+
 ## Response Codes
 1. **Success (OK):**
    - Code: `000`
